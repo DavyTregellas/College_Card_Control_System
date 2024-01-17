@@ -1,0 +1,63 @@
+Date and Time: 2024-01-16 13:07:54
+User Name: Carly
+Swipe Card ID: 20
+Building Code: KS
+Room: KS221
+Access Granted: Yes
+
+Date and Time: 2024-01-16 13:08:11
+User Name: Davy
+Swipe Card ID: 21
+Building Code: KS
+Room: KS221
+Access Granted: Yes
+
+Date and Time: 2024-01-16 13:41:47
+User Name: Carly
+Swipe Card ID: 24
+Building Code: KS
+Room: KS221
+Access Granted: Yes
+
+Date and Time: 2024-01-16 16:51:57
+User Name: Responder
+Swipe Card ID: 101
+Building Code: DT
+Room: DT45
+Access Granted: Yes
+
+Date and Time: 2024-01-16 17:40:41
+User Name: Responder
+Swipe Card ID: 101
+Building Code: DT
+Room: DT236
+Access Granted: Yes
+
+Date and Time: 2024-01-16 17:41:11
+User Name: Responder
+Swipe Card ID: 101
+Building Code: KS
+Room: KS88
+Access Granted: No
+
+Date and Time: 2024-01-16 17:45:34
+User Name: Davy
+Swipe Card ID: 21
+Building Code: DT
+Room: DT34
+Access Granted: Yes
+
+Date and Time: 2024-01-16 21:38:30
+User Name: Cheryl
+Swipe Card ID: 20
+Building Code: KS
+Room: KS26
+Access Granted: Yes
+
+Date and Time: 2024-01-16 22:38:54
+User Name: Aston
+Swipe Card ID: 19
+Building Code: DT
+Room: DT33
+Access Granted: No
+

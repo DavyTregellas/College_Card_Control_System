@@ -1,0 +1,99 @@
+College Card Control System
+
+Purpose of the Program
+
+The card control system has been developed to grant or deny access to college rooms depending on specific criteria. The college has four different types of rooms; Lecture Hall, Teaching Room, Secure Room, Staff Room. Card holders are assigned the role they have at college, college roles; Staff, Student, Visitor / Guest, Contract Cleaner, Manager, Security. The program also allows for states of emergency where access can be granted to Emergency Responders.     
+
+System Requirements 
+
+C++ compiler
+Windows OS
+Standard C++ libraries
+Google Test software and libraries
+CLI environment
+
+Program Overview
+
+The object oriented program defines cardholders and rooms as objects, instances of these objects can be created and used within the features of the program. The program has a user interface, which allows the user to access a number of features, that will be described below.  
+
+The user interacts with the program via a menu. Menu options include:
+Add Room - allows the user to add a new Room.
+Add User - allows the user to add a new Card Holder.
+View Room Log - Allows the user to view all Rooms
+View Card Holder List - allows the user to view all Card Holders
+Delete User - allows the user to remove a Card Holder.
+Delete Room - allows the user to remove a Room
+Simulate Access allows the user to simulate any user role attempting to access any room type.
+Emergency Mode Feature - allows the user to set an emergency in any room.
+
+The Time and Date are displayed in the top left hand side. This feature aids the user when simulating access. Access is granted for different roles at different times of day see part six of manual.   
+
+
+Using the Program
+
+Pressing key ‘1’ activates the add Room feature. The program will prompt the users to enter in the following room criteria; Building Code, Floor Number and Room Number. Finally the program will display a list of the four types of rooms which will look like this:
+
+Select Room Type:
+Enter 1 for Lecture Hall
+Enter 2 for Teaching Room
+Enter 3 for Staff Room
+Enter 4 for Secure Room
+
+The user can then enter the number of the type of room they wish to create. Once the room type is selected a message to inform the user the room has been added successfully will appear. The user will then be taken back to the main menu. 
+
+Pressing key ‘2’ activates the add User feature. The program will prompt the users to enter the swipe card ID number. This can be found on the back of the swipe card you wish to add. Then the user is prompted to add the name of the card holder.
+
+Select Room Type:
+Enter 1 for Staff
+Enter 2 for Student
+Enter 3 for Visitor/Guest
+Enter 4 for Contract Cleaner
+Enter 5 for Manager
+Enter 6 for Security
+Enter 7 for Emergency Responder
+
+The user can then enter the number of the role of the card holder. Once the college role is selected a message to inform the user the card holder has been added successfully will appear. The user will then be taken back to the main menu. 
+
+Pressing key ‘3’ activates the View Rooms feature. The program will display every room from the Room Log storage file above the menu. This is an example of how the rooms will be displayed:
+
+Room Type: Lecture Hall | Building Code: KS | Floor Number: 2 | Room: Number: 22
+
+Pressing key ‘4’ activates the View Users feature. The program will display every card holder from the User Log storage file above the menu. This is an example of how the car holders will be displayed:
+
+Swipe Card ID: 1 | Name: James Bond | Role: Visitor
+
+Pressing key ‘5’ activates the Delete Room feature. The program will prompt the user to enter the following criteria; Building Code, Floor Number and Room Number. Once that data has been entered a message will appear to tell the user the Room has been successfully deleted this message will confirm the room details. The user will then be taken back to the main menu. 
+
+Pressing key ‘6’ activates the Delete User feature. The program will prompt the user to enter the unique Swipe Card ID of the card holder they wish to delete. After the ID number is entered a message will confirm that the card holder has been removed. The user will then be taken back to the main menu. 
+
+Pressing key ‘7’ activates the Simulate User Access feature. The program will display the users at the top of the screen. This is to help the user pick a specific type of card holder to simulate. The program will prompt the user to enter the card holder's unique swipe card ID number. The program will then display the rooms. This is to help the user pick a specific room type to simulate. The program will prompt the user to enter the following room criteria; Building Code, Floor Number and Room Number. Now the program will display a list of the four types of rooms which will look like this:
+
+Select Room Type:
+Enter 1 for Lecture Hall
+Enter 2 for Teaching Room
+Enter 3 for Staff Room
+Enter 4 for Secure Room 
+
+The user can then enter the number of the type of room they wish to simulate accessing. Finally the program asks if the emergency mode is turned on or off in the room. The user can enter 1 to turn the emergency mode on or enter 0 to keep it off. The program will then inform the user if the access was granted or denied for that user. The user will then be taken back to the main menu. This access attempt will be logged in the daily access log storage file. 
+
+Pressing key ‘8’ activates the Emergency Mode feature. The program will prompt the users to enter the room they wish to change the emergency state, with the following criteria; Building Code, Floor Number and Room Number needed. Once the user has entered this data the program will ask the user if they want to turn the emergency mode on or off for that room. The user can enter 1 to turn the emergency mode on or enter 0 to turn it off. A message will then be displayed informing the user of which room they have altered the state and reminds the user the emergency state alters the whole building's access. The user will then be taken back to the main menu.  
+
+Pressing key ‘9’ will exit the program. 
+
+Access for Users 
+
+Staff Member - Access between 05:30:00 and 23:59:59 - All Room-Types. 
+ 
+Student - Access between 08:30 and 22:00 -  Lecture Halls and Teaching Rooms.
+
+Visitor / Guest - Access between 08:30 and 22:00 - Lecture Halls.
+
+Contract Cleaner - Access between 05:30am to 10:30am and 17:30pm to 22:30pm - Lecture Halls, Staff Rooms and Teaching Rooms.
+
+Manager - No time restrictions - Access all Room-Types.
+
+All of the above college-roles have no access to any room-types when emergency mode is on.
+
+Security - No time restrictions - Access all Room-Types. Regardless of emergency mode.
+
+Emergency Responder - No time restrictions - Access all Room-Types. Only in emergency mode.
