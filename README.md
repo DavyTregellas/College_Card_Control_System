@@ -2,6 +2,10 @@ College Card Control System
 
 Please find the full User Manual for this program inside the College_Card_Control_System folder (USER_MANUAL.txt). 
 
+You can download this program as a zip file and run it on Visual studios 2022, you will need to have the googletest libraries to runs the tests.
+This can be found and downloaded from github https://github.com/google/googletest. Alternatively please comment out gTest.cpp and gTest.h and the gTest calling code in main.cpp.
+The code will run with this commented out on a pc  without gTest libraries.
+
 Purpose of the Program
 
 The card control system has been developed to grant or deny access to college rooms depending on specific criteria. 
