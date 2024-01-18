@@ -1,6 +1,6 @@
 College Card Control System
 
-Please find the the full User Manual for this program inside the College_Card_Control_System folder (USER_MANUAL.txt). 
+Please find the full User Manual for this program inside the College_Card_Control_System folder (USER_MANUAL.txt). 
 
 Purpose of the Program
 
